@@ -19,7 +19,4 @@ client.distube = new DisTube(client, {
 	leaveOnFinish: false,
 });
 
-const mongoose = require('mongoose');
-mongoose.connect(process.env.MongoDB, { useNewUrlParser: true, useUnifiedTopology: true });
-
 client.setup();
